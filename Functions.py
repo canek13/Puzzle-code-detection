@@ -340,5 +340,3 @@ def augmentation_img(img, font, target_list, angle_list):
     label = concatenate_from_list(label_list)[0][:,0]
     
     return X, label, min_dim_feature
-
-from sklearn.neighbors import KNeighborsClassifier
